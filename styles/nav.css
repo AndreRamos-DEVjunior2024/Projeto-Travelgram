@@ -4,14 +4,16 @@ nav{
     align-items: center;
     line-height: 0;
     padding-block: 24px;
-    margin: 0 32px 0 32px;
+}
+.bg-surface-color{
+    background-color:var(--surface-color);
 }
 nav ul{
     list-style: none;
     display: flex;
     align-items: center;
     padding-block: 8px;
-    gap: 16px;
+    gap: 24px;
     
 }
 nav ul li:last-child img{
